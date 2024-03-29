@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protfolio</title>
+    <title>Portfolio</title>
     <style>
-     * {
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -16,12 +16,12 @@
             background-color: #f4f4f4;
             color: #333;
         }
-        .navbar {
+        nav {
             background: #333;
             color: #fff;
             padding: 1rem;
         }
-        .navbar h1 {
+        nav h1 {
             display: none;
             font-size: 1.5rem;
             margin-right: 1rem;
@@ -52,7 +52,6 @@
         .container img {
             max-width: 200px;
             height: auto;
-            /* border-radius: 50%; */
             margin-right: 2rem;
         }
         .container .content {
@@ -66,23 +65,13 @@
         .container p {
             margin-bottom: 1rem;
         }
-        #pink {
-            color: pink;
-        }
-        #yellow {
-            color: yellow;
-        }
-        #purple {
-            color: purple;
-        }
         @media only screen and (max-width: 600px) {
-
-            .navbar {
+            nav {
                 margin-top: 20px;
                 flex-direction: column;
                 align-items: center;
             }
-            .navbar h1 {
+            nav h1 {
                 margin-bottom: 1rem;
                 display: block;
                 text-align: center;
@@ -106,53 +95,48 @@
                 margin-bottom: 1rem;
             }
         }
-
-
     </style>
 </head>
 <body>
     <nav>
-        <div class="navbar">
-            <h1> My Protfolio</h1>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact me</a></li>
-            </ul>
-        </div>
+        <h1>My Portfolio</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact me</a></li>
+        </ul>
     </nav>
     <main>
         <div class="container">
             <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="" height="200px">
             <div class="content">
                 <h3>Home</h3>
-                <p>This is a dummy description for the Home section </p>
+                <p>This is a dummy description for the Home section.</p>
             </div>
         </div>
         <div class="container">
             <img src="https://p1.pxfuel.com/preview/144/36/28/books-knowledge-school-library-education-read.jpg" alt="" height="200px">
             <div class="content">
-                <h3 id="pink">Education</h3>
-                <p>This is a dummy description for the Home section </p>
+                <h3>Education</h3>
+                <p>This is a dummy description for the Education section.</p>
             </div>
         </div>
         <div class="container">
             <img src="https://miro.medium.com/v2/resize:fit:1060/1*YX-M4g7d3mLIzpUf7CSfHA.jpeg" alt="" height="200px">
             <div class="content">
-                <h3 id="yellow">Projects</h3>
-                <p>This is a dummy description for the Home section </p>
+                <h3>Projects</h3>
+                <p>This is a dummy description for the Projects section.</p>
             </div>
         </div>
         <div class="container">
             <img src="https://img.freepik.com/premium-vector/illustration-vector-graphic-cartoon-character-skills_516790-385.jpg" alt="" height="200px">
             <div class="content">
-                <h3 id="purple">Skills</h3>
-                <p>This is a dummy description for the Home section </p>
+                <h3>Skills</h3>
+                <p>This is a dummy description for the Skills section.</p>
             </div>
         </div>
-
     </main>
 </body>
 </html>
